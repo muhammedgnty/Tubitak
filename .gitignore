@@ -1,0 +1,23 @@
+# PlatformIO & Arduino derleme çıktıları
+.pio/
+.vscode/
+build/
+*.bin
+*.elf
+*.hex
+*.o
+
+# Bağımlılıklar ve Sanal Ortamlar
+node_modules/
+__pycache__/
+venv/
+.env
+
+# İşletim sistemi kalıntıları
+.DS_Store
+Thumbs.db
+
+# Hassas ayar dosyaları
+secrets.h
+config.json
+*.local.*
