@@ -8,7 +8,7 @@ Proje bütünlüğünü korumak, olası veri ve kod kayıplarının önüne geç
 
 ## 📁 Proje Dizin Yapısı
 
-Proje bileşenleri görev alanlarına göre bağımsız dizinlerde yönetilir:
+Proje bileşenleri görev alanlarına göre kisi isimlerinin altinda bağımsız dizinlerde yönetilir:
 
 * `firmware/` : ESP32 mikrootenetleyici kodları, sensör (BME280 vb.) sürücüleri ve LoRa haberleşme algoritmaları.
 * `server/` : LoRa ağ geçidinden gelen verileri karşılayan arka yüz servisleri ve PostgreSQL veritabanı şemaları.
@@ -28,7 +28,7 @@ Proje bileşenleri görev alanlarına göre bağımsız dizinlerde yönetilir:
 
 ## 🌿 Dal (Branch) İsimlendirme Standartları
 
-Açılacak her dal, yapılan görevin türünü belirten bir ön ek taşımalıdır:
+Açılacak her dal kendi isminizin altinda olmali ve yapılan görevin türünü belirten bir ön ek taşımalıdır:
 
 | Tür | Format | Örnek |
 | :--- | :--- | :--- |
@@ -50,7 +50,7 @@ git checkout main
 git pull
 
 # 3. Temiz bir dal aç ve o dala geç
-git checkout -b feature/gorev-adi
+git checkout -b gelistici/kisiismi/feature/gorev-adi
 ```
 
 ### 2. Geliştirme ve Yerel Kayıt (Commit)
